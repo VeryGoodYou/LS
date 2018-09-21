@@ -1,0 +1,60 @@
+body{
+    background: url("../image/55_104512_9489.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*分类导航*/
+.fdd{
+    position: relative;
+    top: 194px;
+}
+.nav-tabs{
+    border: 0;
+    background: rgba(255,255,255,0.2);
+    height: 96px;
+    padding-top: 17px;
+}
+.nav-tabs li{
+    font-size: 30px;
+}
+.nav-tabs li a{
+    color: #d0d0d0;
+    border: 0;
+    font-family: '楷体';
+}
+.nav-tabs li a:hover{
+    border: 0;
+    color: #ffbc57;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: transparent;
+    border: 0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: #ffbc57;
+}
+.tab-content>.active{
+    margin-left: 15px;
+}
+.nav-tabs img{
+    width: 177px;
+    position: relative;
+    top: -29px;
+    margin-left: 107px;
+    opacity: 0.6;
+}
+@media (max-width: 768px) {
+    .nav-tabs li {
+        font-size: 25px;
+        white-space: nowrap;
+        width: 14%;
+    }
+    .nav-tabs li a img{
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .nav-tabs li{
+        font-size: 19px;
+    }
+}
