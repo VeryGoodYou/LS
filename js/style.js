@@ -5,14 +5,15 @@ $(document).ready(function () {
     });
 });
 /*模态框点击背景不关闭*/
-$("#dd"),modal({
+$("#dd").modal({
     backdrop:'static',
     keyboard:false
 });
-$("#qq"),modal({
+$("#qq").modal({
     backdrop:'static',
     keyboard:false
 });
+
 
 /*手机滑动*/
 var mySwiper = new Swiper('.row-1',{

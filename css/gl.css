@@ -15,12 +15,12 @@ body{
     padding-top: 17px;
 }
 .nav-tabs li{
-    font-size: 30px;
+    font-size: 24px;
 }
 .nav-tabs li a{
     color: #d0d0d0;
     border: 0;
-    font-family: '楷体';
+    font-family: '黑体';
 }
 .nav-tabs li a:hover{
     border: 0;
@@ -37,12 +37,34 @@ body{
     margin-left: 15px;
 }
 .nav-tabs img{
-    width: 177px;
+    width: 174px;
     position: relative;
     top: -29px;
     margin-left: 107px;
     opacity: 0.6;
 }
+/*首页*/
+#home{
+    width: 80%;
+    margin: auto;
+    margin-top: 41px;
+}
+#home div{
+    float: left;
+    width: 183px;
+    color: aliceblue;
+    margin-left: 56px;
+    margin-bottom: 14px;
+}
+.tab-pane img{
+    height: 93px;
+}
+.bt:focus{
+    outline: none;
+}
+
+
+
 @media (max-width: 768px) {
     .nav-tabs li {
         font-size: 25px;
