@@ -48,6 +48,9 @@ body{
     width: 80%;
     margin: auto;
     margin-top: 41px;
+    height: 381px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 #home div{
     float: left;
@@ -62,7 +65,73 @@ body{
 .bt:focus{
     outline: none;
 }
-
+.modal-bodyi video{
+    height: 363px;
+}
+/*推荐*/
+#profile{
+    width: 80%;
+    margin: auto;
+    margin-top: 41px;
+    height: 381px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#profile div{
+    float: left;
+    width: 183px;
+    color: aliceblue;
+    margin-left: 56px;
+    margin-bottom: 14px;
+}
+/*技术*/
+#messages{
+    width: 80%;
+    margin: auto;
+    margin-top: 41px;
+    height: 381px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#messages div{
+    float: left;
+    width: 178px;
+    color: aliceblue;
+    margin-left: 56px;
+    margin-bottom: 14px;
+}
+/*赛事*/
+#settings{
+    width: 80%;
+    margin: auto;
+    margin-top: 41px;
+    height: 381px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#settings div{
+    float: left;
+    width: 161px;
+    color: aliceblue;
+    margin-left: 73px;
+    margin-bottom: 14px;
+}
+/*娱乐*/
+#yule{
+    width: 80%;
+    margin: auto;
+    margin-top: 41px;
+    height: 381px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#yule div{
+    float: left;
+    width: 161px;
+    color: aliceblue;
+    margin-left: 73px;
+    margin-bottom: 14px;
+}
 
 
 @media (max-width: 768px) {
@@ -74,9 +143,27 @@ body{
     .nav-tabs li a img{
         display: none;
     }
+    .tab-pane img{
+        height: 46px;
+    }
+    .modal-content{
+        width: 681px !important;
+    }
+    .btn{
+        position: relative !important;
+        left: 571px !important;
+    }
+    .modal-bodyi video{
+        width: 89%;
+    }
+    #home div,#profile div,#messages div,#settings div,#yule div{
+        width: 83px;
+        margin-left: 20px;
+    }
 }
 @media (max-width: 500px) {
     .nav-tabs li{
         font-size: 19px;
     }
+
 }
