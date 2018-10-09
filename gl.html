@@ -17,8 +17,8 @@
     <ul class="nav nav-pills" id="dis">
         <li role="presentation" class="active"><a href="index.html">官方</a></li>
         <li role="presentation"><a href="gl.html">玩家攻略</a></li>
-        <li role="presentation"><a href="#">游戏资料</a></li>
-        <li role="presentation"><a href="#">个人中心</a></li>
+        <li role="presentation"><a href="zl.html">游戏资料</a></li>
+        <li role="presentation"><a href="gr.html">个人中心</a></li>
     </ul>
     <!-- 登录 -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">登录</button>
@@ -123,18 +123,18 @@
         <a href="#" class="bt" data-toggle="modal" data-target="#myMod"><div><img src="image/timg.jpg">精彩视频，玩转全新CS</div></a>
     </div>
     <!--首页视频-->
-    <div class="modal fade" id="myMod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="myMod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden='true' data-backdrop='static'>
         <div class="modal-dialog" role="document" id="tan">
             <div class="modal-content" style="width: 800px;">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 10px;"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 10px;outline: none;"><span aria-hidden="true" onclick="out()">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel" style="text-align: center;">精彩视频</h4>
                 </div>
                 <div class="modal-bodyi" style="padding-left: 87px;">
-                    <video src="mv/刀剑神域.mp4" controls="controls"></video>
+                    <video src="mv/dao_a.mp4" controls="controls"></video>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal" style="position: relative;left: 703px;float: left;">关闭</button>
+                    <button type="button" onclick="out()" class="btn btn-default" data-dismiss="modal" style="position: relative;left: 703px;float: left;">关闭</button>
                 </div>
             </div>
         </div>
@@ -159,18 +159,18 @@
         <a href="#" class="bt" data-toggle="modal" data-target="#myMoa"><div><img src="image/timg1.jpg">菜鸟进阶高手</div></a>
     </div>
     <!--推荐视频-->
-    <div class="modal fade" id="myMoa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="myMoa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden='true' data-backdrop='static'>
         <div class="modal-dialog" role="document" id="tan">
             <div class="modal-content" style="width: 800px;">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 10px;"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 10px;outline: none;"><span aria-hidden="true" onclick="tui()">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel" style="text-align: center;">精彩视频</h4>
                 </div>
                 <div class="modal-bodyi" style="padding-left: 87px;">
-                    <video src="mv/刀剑神域1.mp4" controls="controls"></video>
+                    <video src="mv/dao_a.mp4" controls="controls"></video>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal" style="position: relative;left: 703px;float: left;">关闭</button>
+                    <button type="button" onclick="tui()" class="btn btn-default" data-dismiss="modal" style="position: relative;left: 703px;float: left;">关闭</button>
                 </div>
             </div>
         </div>
@@ -205,18 +205,18 @@
         <a href="#" class="bt" data-toggle="modal" data-target="#myMoa"><div><img src="image/u=1924092723,4212236483&fm=27&gp=0.jpg">跑遍全图，就是如此的无聊</div></a>
     </div>
     <!--技术视频-->
-    <div class="modal fade" id="myMoa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="myMoa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden='true' data-backdrop='static'>
         <div class="modal-dialog" role="document" id="tan">
             <div class="modal-content" style="width: 800px;">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 10px;"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 10px;outline: none;"><span aria-hidden="true" onclick="ji()">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel" style="text-align: center;">精彩视频</h4>
                 </div>
                 <div class="modal-bodyi" style="padding-left: 87px;">
-                    <video src="mv/刀剑神域1.mp4" controls="controls"></video>
+                    <video src="mv/dao_b.mp4" controls="controls"></video>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal" style="position: relative;left: 703px;float: left;">关闭</button>
+                    <button type="button" onclick="ji()" class="btn btn-default" data-dismiss="modal" style="position: relative;left: 703px;float: left;">关闭</button>
                 </div>
             </div>
         </div>
@@ -251,18 +251,18 @@
         <a href="#" class="bt" data-toggle="modal" data-target="#myMoa"><div><img src="image/u=1260585801,1785176028&fm=27&gp=0.jpg">中国选手TXT队获得冠军</div></a>
     </div>
     <!--赛事视频-->
-    <div class="modal fade" id="myMoa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="myMoa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden='true' data-backdrop='static'>
         <div class="modal-dialog" role="document">
             <div class="modal-content" style="width: 800px;">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 10px;"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 10px;outline: none;"><span aria-hidden="true" onclick="sai()">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel" style="text-align: center;">精彩视频</h4>
                 </div>
                 <div class="modal-bodyi" style="padding-left: 87px;">
-                    <video src="mv/刀剑神域1.mp4" controls="controls" style="height: 363px;"></video>
+                    <video src="mv/dao_a.mp4" controls="controls" style="height: 363px;"></video>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal" style="position: relative;left: 703px;float: left;">关闭</button>
+                    <button type="button" onclick="sai()" class="btn btn-default" data-dismiss="modal" style="position: relative;left: 703px;float: left;">关闭</button>
                 </div>
             </div>
         </div>
@@ -296,18 +296,18 @@
         <a href="#" class="bt" data-toggle="modal" data-target="#myMoa"><div><img src="image/u=917443024,4064903481&fm=27&gp=0.jpg">无聊吗？那就来看直播吧</div></a>
     </div>
     <!--娱乐视频-->
-    <div class="modal fade" id="myMoa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="myMoa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden='true' data-backdrop='static'>
         <div class="modal-dialog" role="document">
             <div class="modal-content" style="width: 800px;">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 10px;"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 10px;outline: none;"><span aria-hidden="true" onclick="yu()">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel" style="text-align: center;">精彩视频</h4>
                 </div>
                 <div class="modal-bodyi" style="padding-left: 87px;">
-                    <video src="mv/刀剑神域1.mp4" controls="controls" style="height: 363px;"></video>
+                    <video src="mv/dao_a.mp4" controls="controls" style="height: 363px;"></video>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal" style="position: relative;left: 703px;float: left;">关闭</button>
+                    <button type="button" onclick="yu()" class="btn btn-default" data-dismiss="modal" style="position: relative;left: 703px;float: left;">关闭</button>
                 </div>
             </div>
         </div>
@@ -317,7 +317,31 @@
 </div>
 
 <script>
-
+    /*首页*/
+    function out() {
+        var out = document.getElementsByTagName('video')[0];
+        out.load();
+    }
+    /*推荐*/
+    function tui() {
+        var aa = document.getElementsByTagName('video')[1];
+        aa.load();
+    }
+    /*技术*/
+    function ji() {
+        var aa = document.getElementsByTagName('video')[2];
+        aa.load();
+    }
+    /*赛事*/
+    function sai() {
+        var aa = document.getElementsByTagName('video')[3];
+        aa.load();
+    }
+    /*娱乐*/
+    function yu() {
+        var aa = document.getElementsByTagName('video')[4];
+        aa.load();
+    }
 </script>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/style.js" type="text/javascript"></script>

@@ -1,0 +1,84 @@
+html{
+    font-size: 12px;
+}
+body{
+    background: url("../image/55_104512_9489.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*武器分页*/
+.fdd{
+    position: relative;
+    top: 51px;
+}
+.nav-tabs{
+    border: 0;
+    background: rgba(255,255,255,0.2);
+    width: 12%;
+    position: fixed;
+}
+.nav-tabs li{
+    font-size: 22px;
+    border-bottom: 1px solid gray;
+    float: none;
+    text-align: center;
+}
+.nav-tabs li:hover{
+    background-color: rgba(196, 200, 212, 0.5);
+}
+.nav-tabs>li>a{
+    color: #d0d0d0;
+    border: none;
+    font-family: '黑体';
+}
+.nav-tabs li a:hover{
+    border: 0;
+    color: #ffbc57;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: rgba(196, 200, 212, 0.5);
+    border: 0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: #ffbc57;
+    width: 100%;
+    border-radius: 0;
+}
+/*武器*/
+.tab-content{
+    text-align: center;
+    width: 69%;
+    margin-left: 18%;
+}
+.tab-content>.active{
+    word-spacing: 72px;
+    line-height: 208px;
+}
+.tab-content>.active a{
+    outline: none;
+}
+/*匕首*/
+#bi a img{
+    width: 162px;
+}
+/*投掷物*/
+#tou a img{
+    width: 162px;
+}
+/*地图*/
+#di a img{
+    width: 162px;
+}
+/*媒体查询*/
+@media (max-width: 768px) {
+    .nav-tabs li{
+        font-size: 12px;
+    }
+    .bt img{
+        width: 115px;
+    }
+    .tab-content>.active{
+        word-spacing: 18px;
+        line-height: 142px;
+    }
+}

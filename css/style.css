@@ -2,7 +2,7 @@ html{
     cursor:url("../image/link1.cur"),default;
     font-size: 12px;
 }
-a:hover{
+a:hover,button:hover{
     cursor: url("../image/link2.cur"),default;
 }
 .nav>li>a:focus, .nav>li>a:hover{

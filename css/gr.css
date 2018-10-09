@@ -1,0 +1,18 @@
+body{
+    background: url("../image/034f3fea5314b76f64d81970412f2025.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form-horizontal{
+    width: 294px;
+    margin: auto;
+    position: relative;
+    top: 228px;
+}
+.form-horizontal p{
+    font-size: 30px;
+    color: #e0e0e0;
+}
+label{
+    color: #e0e0e0;
+}

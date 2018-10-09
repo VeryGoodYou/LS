@@ -44,6 +44,9 @@ body{
     opacity: 0.6;
 }
 /*首页*/
+.close span{
+    outline: none;
+}
 #home{
     width: 80%;
     margin: auto;
@@ -148,10 +151,6 @@ body{
     }
     .modal-content{
         width: 681px !important;
-    }
-    .btn{
-        position: relative !important;
-        left: 571px !important;
     }
     .modal-bodyi video{
         width: 89%;
